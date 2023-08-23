@@ -1,0 +1,18 @@
+<div class="container">
+
+    <h1> Wllcom to Quiz App</h1>
+    <p class="col-md-8 fs-4"> This quiz contains 5 question. each question holds 2 points</p>
+    <h4>rules:</h4>
+    <ol>
+        <li>correct Question gives you 1 points</li>
+        <li>correct Question gives to 0 point</li>
+        <li>You will have 60 sec to answer each question</li>
+        <li>Refereshing the page will reset the Quiz</li>
+    </ol>
+    <h1 style="font-family: cursive;text-align:center">All the best</h1>
+    <div class="name col-md-4  my-3">
+    <label for=""> Enter the name:</label>
+    <input #name type="text" class="form-control">
+    </div>
+    <button type="button" class="btn" routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+    </div>
